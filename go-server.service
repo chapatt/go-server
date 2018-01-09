@@ -1,0 +1,16 @@
+[Unit]
+Description=GoCD server
+Wants=network.target remote-fs.target
+After=network.target remote-fs.target
+
+[Service]
+User=go-server
+Group=go-server
+Type=forking
+PIDFile=/var/lib/go-server/go-server.pid
+ExecStart=/usr/share/go-server/server.sh service_mode
+ExecStop=/usr/share/go-server/stop-server.sh service_mode
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
