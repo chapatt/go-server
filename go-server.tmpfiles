@@ -1,1 +1,2 @@
-d /var/log/go-server 0755 8154 8154 -
+d /var/lib/go-server/	0755	go-server	go-server	-
+d /var/log/go-server	0755	go-server	go-server	-
