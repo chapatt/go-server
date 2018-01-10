@@ -12,7 +12,7 @@ source=("go-server-17.12.0-5626.zip::https://download.gocd.org/binaries/17.12.0-
 	'go-server.tmpfiles')
 sha1sums=('5fe9b431923a58b67941fb55ad962dae57934b62'
 	  'bb3561783b91ee898e68fd83933c311a60253f33'
-	  '0dd828287c1da43b47e0e992015c170f6a4fe8e9' 
+	  'b4282bdc4e7a79aee74fdbf68ea2530b9cd13953'
 	  '18685b86c7fe33b95917188b0106b63fc517351b')
 depends=('java-runtime>=8')
 
